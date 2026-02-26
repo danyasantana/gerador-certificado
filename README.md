@@ -1,59 +1,62 @@
-# GeradorCertificado
+# 🎓 Gerador de Certificados
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.6.
+Este projeto consiste no desenvolvimento de uma aplicação front-end robusta utilizando **Angular**, focada na criação e exportação dinâmica de certificados. A aplicação combina uma interface responsiva via **Bootstrap** com uma lógica de formulários sofisticada.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🚀 Tecnologias e Dependências
 
-```bash
-ng serve
-```
+O projeto utiliza o que há de mais moderno no ecossistema de desenvolvimento web:
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+* **Angular**: Framework principal para construção da arquitetura SPA.
+* **Bootstrap**: Estilização e componentes de interface responsiva.
+* **RxJS**: Gerenciamento de fluxos de dados assíncronos e programação reativa.
+* **Angular Forms (Reactive)**: Construção de formulários complexos com validação robusta.
+* **html2canvas**: Conversão do DOM/HTML para imagens para exportação dos certificados.
+* **uuid**: Geração de identificadores únicos universais.
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🧠 Conceitos Aplicados
 
-```bash
-ng generate component component-name
-```
+Durante o desenvolvimento, foram explorados pilares fundamentais do Angular:
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+* **Componentes**: Modularização da interface em unidades reutilizáveis.
+* **Roteamento**: Navegação dinâmica entre diferentes visões da aplicação.
+* **Injeção de Dependência**: Organização e compartilhamento de serviços e lógica de negócio.
+* **Gerenciamento de Estado**: Controle eficiente dos dados e da UI durante o ciclo de vida da aplicação.
 
-```bash
-ng generate --help
-```
+---
 
-## Building
+## 🛠️ Funcionalidades
 
-To build the project run:
+1.  **Formulários Reativos**: Entrada de dados estruturada para preenchimento do certificado.
+2.  **Geração Dinâmica**: Processamento de informações em tempo real.
+3.  **Exportação**: Transformação do template visual em um arquivo de imagem baixável.
+4.  **Identificação Única**: Cada certificado recebe um código exclusivo via `uuid`.
 
-```bash
-ng build
-```
+---
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## ⚙️ Como rodar o projeto
 
-## Running unit tests
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+    ```
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+2.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
 
-```bash
-ng test
-```
+3.  **Execute a aplicação:**
+    ```bash
+    ng serve
+    ```
 
-## Running end-to-end tests
+4.  **Acesse no navegador:**
+    Acesse `http://localhost:4200/` para visualizar o gerador.
 
-For end-to-end (e2e) testing, run:
+---
 
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+> Projeto desenvolvido com fins educacionais para domínio do framework Angular e suas bibliotecas auxiliares.
